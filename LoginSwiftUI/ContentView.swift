@@ -25,6 +25,7 @@ struct Home: View{
     @State var pass = ""
     var body: some View {
         ZStack{
+//            background(Color("main")).edgesIgnoringSafeArea(.all)
             Color("main").edgesIgnoringSafeArea(.all)
             
             VStack(spacing: 25) {
@@ -93,8 +94,8 @@ struct Home: View{
                 }
                 .padding(.top, 20)
             }
-        }
             .padding(.horizontal, 30)
+            }
         }
     }
 
